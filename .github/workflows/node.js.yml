@@ -5,9 +5,9 @@ name: Hardhat test
 
 on:
   push:
-    branches: [ "master" ]
+    branches: [ "origin" ]
   pull_request:
-    branches: [ "master" ]
+    branches: [ "origin" ]
 
 jobs:
   build:
